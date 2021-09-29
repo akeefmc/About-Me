@@ -1,0 +1,26 @@
+/*this section is to make the image circular like an avatar*/
+img{
+  border-radius: 50%
+}
+/*this bulk of the code is to adjust the font-size,font-family,background-color,border,padding,color and text-alignment for the whole body however the font-size for the footer is adjusted at the end in line 23-25*/
+body{
+  font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color:black;
+  border: 5px solid whitesmoke;
+  padding: 50px;
+  color: white;
+  text-align: center
+}
+/*following is to make the bullet points and numerical lists come closer to the text instead of being far left after text-align has centered the body*/
+ul li {
+   list-style-position: inside;
+}
+ol li{
+  list-style-position: inside
+}
+/* following code is to make the contact section smaller than the rest of the texts*/
+footer{
+  font-size: small
+}
+  
