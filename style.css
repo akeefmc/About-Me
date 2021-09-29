@@ -4,6 +4,7 @@ img{
 }
 /*this bulk of the code is to adjust the font-size,font-family,background-color,border,padding,color and text-alignment for the whole body however the font-size for the footer is adjusted at the end in line 23-25*/
 body{
+  margin: 35px;
   height: auto;
   font-size: xx-large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
